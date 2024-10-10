@@ -40,19 +40,16 @@ Welcome to the **VAE Implementation** in Python using TensorFlow/Keras! This pro
 ## 🔥 Key Results
 
 ### 🖼️ Latent Space Visualization
-![Latent Space]('/Users/nithinrajulapati/Desktop/Screenshot 2024-10-10 at 12.41.48 AM.png')
 
 This scatter plot shows how Fashion-MNIST images are encoded into the 2D latent space. Similar images are clustered together, indicating that the VAE has learned meaningful representations.
 
 ### 🛠️ Training Loss Plot
-![Loss Plot](attachment:image-url-2)
 
 The training and validation loss show a consistent decrease, demonstrating that the VAE is learning to accurately reconstruct images from the latent space.
 
 ### 🎨 Interpolation Between Images
-![Interpolation](attachment:image-url-3)
 
-The above image shows an interpolation between two different data points in the latent space. As we move across the latent space, the generated images smoothly transition from one style to another!
+The above shows an interpolation between two different data points in the latent space. As we move across the latent space, the generated images smoothly transition from one style to another!
 
 ---
 
